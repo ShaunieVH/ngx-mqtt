@@ -1,7 +1,7 @@
 {
-  "name": "ngx-mqtt",
-  "version": "5.4.0",
-  "description": "ngx mqtt client library",
+  "name": "mqtt-zbos",
+  "version": "5.4.2",
+  "description": "ZBOS mqtt client library (Cloned of mqtt client library https://github.com/sclausen/ngx-mqtt)",
   "main": "bundles/ngx-mqtt.min.js",
   "module": "./src/index.js",
   "typings": "./src/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sclausen/ngx-mqtt.git"
+    "url": "https://github.com/ShaunieVH/ngx-mqtt.git"
   },
   "keywords": [
     "angular",
@@ -23,9 +23,12 @@
     "mqtt"
   ],
   "author": {
-    "name": "sclausen"
+    "name": "SVH"
   },
   "contributors": [
+    {
+      "name": "sclausen"
+    },
     {
       "name": "lpeterse"
     }
