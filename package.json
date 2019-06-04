@@ -1,6 +1,6 @@
 {
   "name": "mqtt-zbos",
-  "version": "5.4.2",
+  "version": "5.4.3",
   "description": "ZBOS mqtt client library (Cloned of mqtt client library https://github.com/sclausen/ngx-mqtt)",
   "main": "bundles/ngx-mqtt.min.js",
   "module": "./src/index.js",
