@@ -37,7 +37,7 @@ export class MqttService {
   public messages: Subject<IMqttMessage> = new Subject<IMqttMessage>();
 
   private _clientId = this._generateClientId();
-  private _keepalive = 60;
+  private _keepalive = 30;
   private _connectTimeout = 10000;
   private _reconnectPeriod = 10000;
   private _url: string;
